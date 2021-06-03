@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> Formulaire de contact </title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo.ico">
+
+</head>
+
+<body class="contact">
+
+  <nav>
+    <ul>
+      <li id="p1"><a href="index.html">Accueil</a></li>
+      <li id="p2"><a href="Histoire.html">Histoire</a></li>
+      <li id="p3"><a href="Economie.html">Economie</a></li>
+      <li id="p4"><a href="Demographie.html">Démographie</a></li>
+      <li id="p5"><a href="Politique.html">Politique</a></li>
+      <li id="p6"><a href="Culture.html">Culture</a></li>
+      <li id="p7"><a href="FormDeContact.html">Nous contacter</a></li>
+    </ul>
+  </nav>
+
+
+
+  <div class="formulaire">
+    <form>
+      <fieldset>
+        <legend>Votre identité</legend> <br>
+
+        <label for="civ">Civilité :</label>
+        <input type="text" name="civ"><br><br>
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom"><br><br>
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom"><br><br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Vos coordonnées</legend><br>
+
+        <label for="cp">Code postal :</label>
+        <input type="text" name="cp"><br><br>
+        <label for="adresse">Adresse :</label>
+        <input type="text" name="adresse"><br><br>
+        <label for="email">Email :</label>
+        <input type="text" name="email"><br><br>
+        <label for="tel">Téléphone :</label>
+        <input type="text" name="tel"><br><br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Votre message</legend><br>
+
+        <label for="sujet">Sujet :</label>
+        <select name="sujet" id="sujet-select">
+          <option value="">--Veuillez choisir un option--</option>
+          <option value="question">Question</option>
+          <option value="remerciement">Remerciement</option>
+          <option value="probleme">Problème</option>
+          <option value="autre">Autre</option>
+
+        </select><br><br>
+
+        <label for="msg">Message :</label>
+        <textarea name="msg" rows="5" cols="43"></textarea><br><br>
+        <input type="submit" value="Envoyer">
+      </fieldset>
+
+
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
